@@ -64,5 +64,5 @@ DATASETS
 ![Assignment Score Chart](data/assign.png)
 #### Quiz Score 
 ![Quiz Score Chart](data/quiz.png)
-#### Results
+# Overall Result
 ![Results Probability](data/res.png)
