@@ -63,7 +63,7 @@ In this study, student performance prediction is done using features such as att
 ## Overall Result
 ![Results Probability](data/res.png)
 
-# How the app works
+# How TO RUN APP
 
 ## Clone the Repository
 ```bash
@@ -78,5 +78,41 @@ pip install streamlit pandas scikit-learn
 ```bash
 python -m streamlit run app.py
 ```
+# HOW MODEL WORKS
+### Step 1:
+Machine learning models cannot read English words like "Good" or "High." They only understand math.
+The OrdinalEncoder acts as a translator. It looks at your CSV and turns the categories into numbers. For example:
+
+Good = 2, Average = 1, Poor = 0
+
+High = 2, Mid = 1, Low = 0
+
+### Step 2:
+Before looking at the student's specific traits, the model looks at your whole CSV file and asks: "Overall, what are the baseline odds of ANY student passing?"
+If your CSV has 50 Passes and 50 Fails, the baseline is exactly 50% for Pass and 50% for Fail.
+
+### Step 3:
+Next, the model isolates each individual trait the user selected and checks its history in the CSV:
+
+Clue 1: Out of everyone who Passed in the past, how many had Good Attendance?
+
+Clue 2: Out of everyone who Passed, how many had Long Study Hours?
+
+Clue 3: Out of everyone who Passed, how many had an A?
+
+Clue 4: Out of everyone who Passed, how many had High Quiz Scores?
+
+It then does the exact same calculation for everyone who Failed.
+
+### Step 4:
+The model takes the Baseline probability and multiplies it by the probability of all 4 clues combined.
+
+Pass Score = (Baseline Pass) × (Odds of Good given Pass) × (Odds of Long given Pass) × (Odds of A given Pass) × (Odds of High given Pass)
+
+Fail Score = (Baseline Fail) × (Odds of Good given Fail) × (Odds of Long given Fail) × (Odds of A given Fail) × (Odds of High given Fail)
+
+### Step 5:
+Finally, it compares the total Pass Score against the total Fail Score.
+If the Pass Score is higher (e.g., 95% to 5%), it outputs "PREDICTION: The student will PASS."
 
 # Observation
