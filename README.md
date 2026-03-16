@@ -16,7 +16,7 @@ In this study, student performance prediction is done using features such as att
 5. Results - Pass, Fail
 
 
-DATASETS
+## DATASETS
 | Student | ATTENDANCE | STUDY HOURS | ASSIGNMENT SCORE | QUIZ SCORE | RESULTS |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | S1 | Good | Short | B | Mid | Pass |
@@ -55,7 +55,7 @@ DATASETS
 =======
 >>>>>>> ef9d9f25a22a04654dff3605c9408bb3959d2220
 
-# Survey Summary Charts
+## Survey Summary Charts
 #### Attendance
 ![Attendance Chart](data/attendance.png)
 #### Study Hours 
@@ -64,5 +64,5 @@ DATASETS
 ![Assignment Score Chart](data/assign.png)
 #### Quiz Score 
 ![Quiz Score Chart](data/quiz.png)
-# Overall Result
+## Overall Result
 ![Results Probability](data/res.png)
