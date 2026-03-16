@@ -56,9 +56,13 @@ DATASETS
 >>>>>>> ef9d9f25a22a04654dff3605c9408bb3959d2220
 
 ### Survey Summary Charts
-
+#### Attendance
 ![Attendance Chart](data/attendance.png)
+#### Study Hours 
 ![Study Hours Chart](data/stud.png)
+#### Assignment Score 
 ![Assignment Score Chart](data/assign.png)
+#### Quiz Score 
 ![Quiz Score Chart](data/quiz.png)
+#### Results
 ![Results Probability](data/res.png)
