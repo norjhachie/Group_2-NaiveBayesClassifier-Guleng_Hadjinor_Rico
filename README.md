@@ -78,3 +78,5 @@ pip install streamlit pandas scikit-learn
 ```bash
 python -m streamlit run app.py
 ```
+
+# Observation
