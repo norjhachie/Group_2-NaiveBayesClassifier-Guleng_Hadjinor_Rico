@@ -49,11 +49,6 @@ In this study, student performance prediction is done using features such as att
 | S28 | Average | Long | A | High | Pass |
 | S29 | Good | Short | A | Mid | Pass |
 | S30 | Average | Long | B | Mid | Pass |
-<<<<<<< HEAD
-
-
-=======
->>>>>>> ef9d9f25a22a04654dff3605c9408bb3959d2220
 
 ## Survey Summary Charts
 #### Attendance
