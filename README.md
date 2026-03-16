@@ -55,7 +55,7 @@ DATASETS
 =======
 >>>>>>> ef9d9f25a22a04654dff3605c9408bb3959d2220
 
-### Survey Summary Charts
+# Survey Summary Charts
 #### Attendance
 ![Attendance Chart](data/attendance.png)
 #### Study Hours 
