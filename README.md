@@ -8,13 +8,14 @@ Predicting student performance helps instructors make better decisions in monito
 
 In this study, student performance prediction is done using features such as attendance, study hours, assignment score, and quiz score, and the result is classified into Pass or Fail using the Naive Bayes classification formula. The goal is to demonstrate how probability-based classification can be applied to real educational data to support decision-making in academic environments.
 
-## Features/Factors:
-1. Attendance - Good, Average, Poor
-2. Study Hours - Long, Short
-3. Assignment Score - A, B, C
-4. Quiz Score - High, Mid, Low
-5. Results - Pass, Fail
-
+## Features/Factors
+| FACTORS | FEATURE VALUES |
+| :--- | :--- |
+| Attendance | Good, Average, Poor |
+| Study Hours | Long, Short |
+| Assignment Score | A, B, C |
+| Quiz Score | High, Mid, Low |
+| Results | Pass, Fail |
 
 ## DATASETS
 | Student | ATTENDANCE | STUDY HOURS | ASSIGNMENT SCORE | QUIZ SCORE | RESULTS |
@@ -61,3 +62,4 @@ In this study, student performance prediction is done using features such as att
 ![Quiz Score Chart](data/quiz.png)
 ## Overall Result
 ![Results Probability](data/res.png)
+
