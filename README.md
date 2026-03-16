@@ -1,6 +1,6 @@
 # Group 2 -Guleng, Hadjinor, Rico
 
-## STUDENT PERFORMANCE PREDICTION
+## Stundent Performance Prediction
 
 One of the commonly used techniques for student performance prediction is the Naive Bayes classifier, a probabilistic algorithm based on Bayes' Theorem. This method calculates the probability that a student will pass or fail based on several independent features. Because of its simplicity, efficiency, and good performance on small datasets, Naive Bayes is widely used in educational research and classification problems.
 
@@ -17,7 +17,7 @@ In this study, student performance prediction is done using features such as att
 | Quiz Score | High, Mid, Low |
 | Results | Pass, Fail |
 
-## DATASETS
+## Datasets
 | Student | ATTENDANCE | STUDY HOURS | ASSIGNMENT SCORE | QUIZ SCORE | RESULTS |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | S1 | Good | Short | B | Mid | Pass |
@@ -63,23 +63,23 @@ In this study, student performance prediction is done using features such as att
 ## Overall Result
 ![Results Probability](data/res.png)
 
-# How TO RUN APP
+## How to run the app
 
-## Clone the Repository
+#### Clone the Repository
 ```bash
 git clone https://github.com/norjhachie/Group_2-NaiveBayesClassifier-Guleng_Hadjinor_Rico.git
 cd Group_2-NaiveBayesClassifier-Guleng_Hadjinor_Rico
 ```
-## Install Dependencies
+#### Install Dependencies
 ```bash
 pip install streamlit pandas scikit-learn
 ```
-## Run the Application (VSCode Terminal)
+#### Run the Application (VSCode Terminal)
 ```bash
 python -m streamlit run app.py
 ```
-# HOW MODEL WORKS
-### Step 1:
+## How the model works
+#### Step 1:
 Machine learning models cannot read English words like "Good" or "High." They only understand math.
 The OrdinalEncoder acts as a translator. It looks at your CSV and turns the categories into numbers. For example:
 
@@ -87,11 +87,11 @@ Good = 2, Average = 1, Poor = 0
 
 High = 2, Mid = 1, Low = 0
 
-### Step 2:
+#### Step 2:
 Before looking at the student's specific traits, the model looks at your whole CSV file and asks: "Overall, what are the baseline odds of ANY student passing?"
 If your CSV has 50 Passes and 50 Fails, the baseline is exactly 50% for Pass and 50% for Fail.
 
-### Step 3:
+#### Step 3:
 Next, the model isolates each individual trait the user selected and checks its history in the CSV:
 
 Clue 1: Out of everyone who Passed in the past, how many had Good Attendance?
@@ -104,14 +104,14 @@ Clue 4: Out of everyone who Passed, how many had High Quiz Scores?
 
 It then does the exact same calculation for everyone who Failed.
 
-### Step 4:
+#### Step 4:
 The model takes the Baseline probability and multiplies it by the probability of all 4 clues combined.
 
 Pass Score = (Baseline Pass) × (Odds of Good given Pass) × (Odds of Long given Pass) × (Odds of A given Pass) × (Odds of High given Pass)
 
 Fail Score = (Baseline Fail) × (Odds of Good given Fail) × (Odds of Long given Fail) × (Odds of A given Fail) × (Odds of High given Fail)
 
-### Step 5:
+#### Step 5:
 Finally, it compares the total Pass Score against the total Fail Score.
 If the Pass Score is higher (e.g., 95% to 5%), it outputs "PREDICTION: The student will PASS."
 
