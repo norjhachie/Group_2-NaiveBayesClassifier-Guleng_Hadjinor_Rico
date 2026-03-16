@@ -65,13 +65,16 @@ In this study, student performance prediction is done using features such as att
 
 # How the app works
 
-## Clone the Files
-https://github.com/norjhachie/Group_2-NaiveBayesClassifier-Guleng_Hadjinor_Rico
-
+## Clone the Repository
+```bash
+git clone https://github.com/norjhachie/Group_2-NaiveBayesClassifier-Guleng_Hadjinor_Rico.git
+cd Group_2-NaiveBayesClassifier-Guleng_Hadjinor_Rico
+```
 ## Install Dependencies
 ```bash
 pip install streamlit pandas scikit-learn
-
-## Run this to your vscode terminal
+```
+## Run the Application (VSCode Terminal)
 ```bash
 python -m streamlit run app.py
+```
