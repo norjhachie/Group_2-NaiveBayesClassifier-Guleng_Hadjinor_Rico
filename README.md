@@ -80,7 +80,7 @@ python -m streamlit run app.py
 ```
 ## How the model works
 
-### The model used the csv file
+### The model used the csv file:
 ```bash
 Fixed_CompleteCombi.csv
 ```
