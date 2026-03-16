@@ -1,4 +1,4 @@
-# Group_2-NaiveBayesClassifier-Guleng_Hadjinor_Rico
+# Group 2 -Guleng, Hadjinor, Rico
 
 | ID | ATTENDANCE | STUDY HOURS | ASSIGNMENT SCORE | QUIZ SCORE | RESULTS |
 | :--- | :--- | :--- | :--- | :--- | :--- |
