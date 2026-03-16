@@ -32,3 +32,11 @@
 | S28 | Average | Long | A | High | Pass |
 | S29 | Good | Short | A | Mid | Pass |
 | S30 | Average | Long | B | Mid | Pass |
+
+### Survey Summary Charts
+
+![Attendance Chart](data/attendance.png)
+![Study Hours Chart](data/stud.png)
+![Assignment Score Chart](data/assign.png)
+![Quiz Score Chart](data/quiz.png)
+![Results Probability](data/res.png)
