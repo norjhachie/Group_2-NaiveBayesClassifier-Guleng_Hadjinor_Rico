@@ -1,6 +1,6 @@
 # Group 2 -Guleng, Hadjinor, Rico
 
-## Stundent Performance Prediction
+## Student Performance Prediction
 
 One of the commonly used techniques for student performance prediction is the Naive Bayes classifier, a probabilistic algorithm based on Bayes' Theorem. This method calculates the probability that a student will pass or fail based on several independent features. Because of its simplicity, efficiency, and good performance on small datasets, Naive Bayes is widely used in educational research and classification problems.
 
