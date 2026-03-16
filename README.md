@@ -1,6 +1,6 @@
 # Group 2 -Guleng, Hadjinor, Rico
 
-STUDENT PERFORMANCE PREDICTION
+## STUDENT PERFORMANCE PREDICTION
 
 One of the commonly used techniques for student performance prediction is the Naive Bayes classifier, a probabilistic algorithm based on Bayes' Theorem. This method calculates the probability that a student will pass or fail based on several independent features. Because of its simplicity, efficiency, and good performance on small datasets, Naive Bayes is widely used in educational research and classification problems.
 
@@ -8,7 +8,7 @@ Predicting student performance helps instructors make better decisions in monito
 
 In this study, student performance prediction is done using features such as attendance, study hours, assignment score, and quiz score, and the result is classified into Pass or Fail using the Naive Bayes classification formula. The goal is to demonstrate how probability-based classification can be applied to real educational data to support decision-making in academic environments.
 
-Features/Factors:
+## Features/Factors:
 1. Attendance - Good, Average, Poor
 2. Study Hours - Long, Short
 3. Assignment Score - A, B, C
