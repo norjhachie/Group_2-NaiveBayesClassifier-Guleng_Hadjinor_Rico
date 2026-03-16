@@ -1,6 +1,6 @@
 # Group 2 -Guleng, Hadjinor, Rico
 
-| ID | ATTENDANCE | STUDY HOURS | ASSIGNMENT SCORE | QUIZ SCORE | RESULTS |
+| Student | ATTENDANCE | STUDY HOURS | ASSIGNMENT SCORE | QUIZ SCORE | RESULTS |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | S1 | Good | Short | B | Mid | Pass |
 | S2 | Good | Long | A | Mid | Pass |
