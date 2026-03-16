@@ -4,7 +4,7 @@ STUDENT PERFORMANCE PREDICTION
 - predict if student will Pass or Fail.
 
 Features/Factors:
-1. Attendabce - Good, Average, Poor
+1. Attendance - Good, Average, Poor
 2. Study Hours - Long, Short
 3. Assignment Score - A, B, C
 4. Quiz Score - High, Mid, Low
