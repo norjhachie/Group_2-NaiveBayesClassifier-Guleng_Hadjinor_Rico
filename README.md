@@ -79,6 +79,12 @@ pip install streamlit pandas scikit-learn
 python -m streamlit run app.py
 ```
 ## How the model works
+
+### The model used the csv file
+```bash
+Fixed_CompleteCombi.csv
+```
+
 ### Step 1:
 Machine learning models cannot read English words like "Good" or "High." They only understand math.
 The OrdinalEncoder acts as a translator. It looks at your CSV and turns the categories into numbers. For example:
